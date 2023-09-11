@@ -1,5 +1,5 @@
-import { Button } from 'antd';
-function Layout(){
+import { Button } from 'antd'
+function Layout() {
   return (
     <div>
       layout
@@ -7,4 +7,5 @@ function Layout(){
     </div>
   )
 }
+
 export default Layout

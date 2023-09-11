@@ -17,13 +17,8 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "eject": "react-scripts eject",
+    "lint": "eslint --fix ."
   },
   "browserslist": {
     "production": [
@@ -39,6 +34,11 @@
   },
   "devDependencies": {
     "@craco/craco": "^7.1.0",
+    "eslint": "8.22.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "prettier": "^3.0.3",
     "sass": "^1.66.1"
   }
 }
